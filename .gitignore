@@ -1,0 +1,27 @@
+# ── 编译产物 ──────────────────────────────
+*.exe
+*.obj
+*.o
+*.out
+*.ilk
+*.pdb
+*.idb
+
+# ── Visual Studio 的预编译头缓存 ──────────
+# 本机这一个目录就 274MB，纯缓存，重建即可
+ipch/
+*.ipch
+.vs/
+
+# ── VSCode Code Runner 的临时文件 ─────────
+tempCodeRunnerFile.*
+
+# ── 本机专用配置 ─────────────────────────
+# .vscode 里的 g++/gdb 路径写死成这台机器的 MinGW 目录，别人拿去用不了；
+# 编译命令见 README，自己配一下就行
+.vscode/
+
+# ── 系统垃圾 ──────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
